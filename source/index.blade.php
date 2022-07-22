@@ -141,51 +141,51 @@
                     </div>
                     <div class="mx-auto w-full lg:w-10/12 grid grid-cols-3 lg:grid-cols-2 lg:gap-10 gap-4">
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%2031.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%2031.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-mediuml lg:font-bold">Memilih Jurusan Sekolah/Kuliah</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%2041.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%2041.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-mediuml lg:font-bold">Memilih Pasangan Ideal</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%2051.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%2051.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-mediuml lg:font-bold">Memilih Profesi & Karir yang Tepat</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%2061.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%2061.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-mediuml lg:font-bold">Pola Komunikasi Anak & Pasangan</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%2071.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%2071.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-mediuml lg:font-bold">Mengenal Kepribadian Diri</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%2081.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%2081.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-mediuml lg:font-bold">Cara Belajar dan Mengajar Efektif</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%2091.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%2091.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-mediuml lg:font-bold">Mengetahui Kelebihan dan Kekurangan Diri</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%20101.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%20101.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-medium lg:font-bold">Mengetahui Motivasi dan Semangat Belajar</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%20111.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%20111.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-medium lg:font-bold">Mengetahui Pola Asuh Anak yang Tepat</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%20121.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%20121.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-medium lg:font-bold">Pola Sirkulasi Hubungan Keluarga/Organisasi</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%20131.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%20131.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-medium lg:font-bold">Menemukan Bisnis yang Tepat sesuai Genetik</p>
                         </div>
                         <div class="space-y-2 space-x-0 w-auto lg:w-7/12 mx-0 lg:mx-auto lg:space-x-10 lg:space-y-0 flex flex-col lg:flex-row">
-                            <img class="mx-auto" src="assets/manfaat/image%20141.png">
+                            <img class="mx-auto w-auto lg:w-24 lg:h-24 h-auto" src="assets/manfaat/image%20141.png">
                             <p class="text-center lg:text-left w-auto lg:w-64 pt-3 lg:pt-0 text-xs lg:text-lg font-medium lg:font-bold">Mengetahui Kekuatan Jasmani & Organ Tubuh</p>
                         </div>
                     </div>
@@ -204,42 +204,42 @@
                     </p>
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-2 space-y-5 lg:space-y-0 gap-5 w-full lg:w-9/12 mx-auto">
-                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-8/12">
+                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-10/12">
                         <p class="font-bold text-2xl">SIMPEL</p>
                         <p class="text-xs pr-12">
                             Dari miliaran manusia, STIFIn dikelompokkan hanya dalam 5 Mesin Kecerdasan dan 9 Personaliti Genetik. Kita hanya perlu mengingat satu di antaranya dan menjadikannya kekuatan utama fokus satu hebat.
                         </p>
                         <img class="absolute right-3 top-0 z-30 w-16" src="assets/box/1.png">
                     </div>
-                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-8/12">
+                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-10/12">
                         <p class="font-bold text-2xl">AKURAT</p>
                         <p class="text-xs pr-12">
                             Memiliki akurasi dengan tingkat Validitas (Paper & Pencil) dan Reliabilitas (Fingerprint) tinggi yaitu 95% saat dilakukan uji coba tes. STIFIn menguraikan cara kerja otak berdasarkan sistem operasi, bukan kapasitas hardwarenya.
                         </p>
                         <img class="absolute right-3 top-0 z-30 w-16" src="assets/box/2.png">
                     </div>
-                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-8/12">
+                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-10/12">
                         <p class="font-bold text-2xl">APLIKATIF</p>
                         <p class="text-xs pr-12">
                             STIFIn memiliki keunggulan yang sifatnya Multi Angle Field dimana hasilnya ini dapat di terapkan dalam segala bidang seperti Learning, Teaching, Parenting, Bisnis, Profesi, Suri Rumah, Couple, Health, ...
                         </p>
                         <img class="absolute right-3 top-0 z-30 w-16" src="assets/box/3.png">
                     </div>
-                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-8/12">
+                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-10/12">
                         <p class="font-bold text-2xl">1x SEUMUR HIDUP</p>
                         <p class="text-xs pr-12">
                             Minimal usia 2,5 tahun dan cukup 1x seumur hidup, karena hasil tidak akan berubah (genetik). Analoginya seperti genetika Jenis Kelamin yang tidak mungkin berubah. Proses hanya butuh waktu sekitar 5-10 menit sampai hasil keluar.
                         </p>
                         <img class="absolute right-3 top-0 z-30 w-16" src="assets/box/4.png">
                     </div>
-                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-8/12">
+                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-10/12">
                         <p class="font-bold text-2xl">DERIVASI AL QUR’AN</p>
                         <p class="text-xs pr-12">
                             Minimal usia 2,5 tahun dan cukup 1x seumur hidup, karena hasil tidak akan berubah (genetik). Analoginya seperti genetika Jenis Kelamin yang tidak mungkin berubah. Proses hanya butuh waktu sekitar 5-10 menit sampai hasil keluar.
                         </p>
                         <img class="absolute right-3 top-0 z-30 w-16" src="assets/box/5.png">
                     </div>
-                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-8/12">
+                    <div class="box-2 px-7 py-4 space-y-3 relative mx-auto w-full lg:w-10/12">
                         <p class="font-bold text-2xl">METODE TES STIFIn</p>
                         <p class="text-xs pr-12">
                             Menggunakan Tes Sidik Jari sehingga hasil tes tidak di pengaruhi oleh faktor kondisi fisik dan psikis seseorang. Sehingga hanya perlu dilakukan 1x seumur hidup, karena hasilnya tetap sama tidak akan berubah.
@@ -1006,9 +1006,9 @@
                     marsha.listiyani@gmail.com</p>
             </div>
             <div class="pb-16 space-x-10 lg:space-x-20 px-8 lg:px-20 lg:pt-12 pt-10 body-bg flex flex-row">
-                <div class="flex flex-col space-y-5 w-11/12 lg:w-3/12">
+                <div class="flex flex-col space-y-5 w-11/12 lg:w-2/12">
                     <img class="lg:w-48" src="assets/logo%20SF_white%201.png">
-                    <p class="text-white text-xs lg:text-sm">Kami dari komunitas yang di dirikan dengan tujuan untuk mengenali kperibadian dan meningkatkan kualitas diri menuju Sukses Mulia.</p>
+                    <p class="text-white text-xs">Kami dari komunitas yang di dirikan dengan tujuan untuk mengenali kperibadian dan meningkatkan kualitas diri menuju Sukses Mulia.</p>
                 </div>
                 <img src="assets/Line%201.png">
                 <div class="flex flex-col space-y-5 w-8/12 lg:w-1/12">
@@ -1039,7 +1039,7 @@
                      <p class="font-bold">
                          Lokasi Kami
                      </p>
-                     <div class="flex flex-col space-y-3 mx-auto">
+                     <div class="flex flex-col space-y-3 mx-auto text-sm">
                          <p>
                              Jl. Guru Kojar, Jurang Mangu Barat, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15220
                              <br>
