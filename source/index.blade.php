@@ -1,5 +1,4 @@
 @extends('_layouts.main')
-
 @section('body')
     <div class="max-w-screen-2xl mx-auto">
         <div class="max-w-screen-2xl bg-nav fixed top-0 z-50 w-full px-5 lg:px-20 py-2 justify-between flex flex-row">
@@ -380,9 +379,8 @@
                     <img class="mx-auto w-full rounded-2xl lg:w-6/12" src="assets/image%2015.png">
                 </div>
             </div>
-            <div class="px-5 pb-16">
+            <div class="px-5">
                 <img class="absolute relative -top-1 mx-auto" src="assets/icon/Polygon%201.png">
-
                 <div class="pt-16 flex flex-col space-y-10">
                     <div class="flex flex-col">
                         <p class="text-main text-center text-4xl font-bold text-center">
@@ -392,102 +390,130 @@
 
 
 
-                    <div class="flex flex-row space-x-0 lg:space-x-10">
-                        <img class="hidden lg:flex" src="assets/arrow/Group%2041.svg">
+                    <div class="flex flex-row space-x-0 lg:space-x-10 relative">
+                        <div class="flex flex-row space-x-0 lg:space-x-10 mx-auto w-full px-5 lg:px-10 pb-20">
+                            <img class="left cursor-pointer absolute left-0 top-1/2 hidden lg:flex w-16" src="assets/arrow/Group%2041.svg">
 
-                        <!--        carousel-->
-                        <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10">
-                            <div class="flex flex-col space-y-5 w-full lg:w-4/12">
-                                <div class="box-big-2 px-3 py-4 space-y-5 relative flex flex-col">
-                                    <img class="mx-auto z-30 w-auto lg:w-32" src="assets/image%2018.png">
-                                    <img class="absolute right-5 top-5 mx-auto z-30" src="assets/ThumbsUp.png">
+                            <!--        carousel-->
+                            <div class="center w-full lg:w-11/12">
+                                <div class="px-0 lg:px-5 flex flex-col space-y-5 w-full lg:w-3/12">
+                                    <div class="box-big-2 px-3 py-4 space-y-5 relative flex flex-col">
+                                        <img class="mx-auto z-30 w-auto lg:w-32" src="assets/image%2018.png">
+                                        <img class="absolute right-5 top-5 mx-auto z-30" src="assets/ThumbsUp.png">
 
-                                    <div class="space-y-2">
-                                        <p class="font-bold text-sm  text-center">Prof. Dr. Kuswandi, S.U., M.Phill., Apt</p>
-                                        <p class="text-xs italic text-center w-9/12 mx-auto">
-                                            Guru Besar UGM, Pakar Genetika, Pemerhati Pendidikan
-                                        </p>
-                                        <div class="flex flex-row w-24 mx-auto">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
+                                        <div class="space-y-2">
+                                            <p class="font-bold text-sm  text-center">Prof. Dr. Kuswandi, S.U., M.Phill., Apt</p>
+                                            <p class="text-xs italic text-center w-9/12 mx-auto">
+                                                Guru Besar UGM, Pakar Genetika, Pemerhati Pendidikan
+                                            </p>
+                                            <div class="flex flex-row w-24 mx-auto">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            Hasil tes STIFIn ini sangat cocok dengan saya. Penjelasannya sangat ilmiah, detail, dan praktis untuk saya pahami.
+                                            <br><br>
+                                            Jadi menurut saya, tes ini sangat penting di lakukan sedini mungkin agar kita sebagai orang tua tidak salah dalam mengarahkan anak untuk memilih jalur pendidikan dan profesi yang sesuai dengan bakan dan potensinya.
+                                            <br><br>
+                                            Sehingga anak-anak menemukan cara belajar yang menyenangkan.
                                         </div>
                                     </div>
-                                    <div class="text-center">
-                                        Hasil tes STIFIn ini sangat cocok dengan saya. Penjelasannya sangat ilmiah, detail, dan praktis untuk saya pahami.
-                                        <br><br>
-                                        Jadi menurut saya, tes ini sangat penting di lakukan sedini mungkin agar kita sebagai orang tua tidak salah dalam mengarahkan anak untuk memilih jalur pendidikan dan profesi yang sesuai dengan bakan dan potensinya.
-                                        <br><br>
-                                        Sehingga anak-anak menemukan cara belajar yang menyenangkan.
-                                    </div>
+
                                 </div>
+                                <div class="px-0 lg:px-5 lg:flex hidden flex-col space-y-5 w-full lg:w-3/12">
+                                    <div class="box-big-2 px-3 py-4 space-y-5 relative flex flex-col">
+                                        <img class="mx-auto z-30 w-auto lg:w-32" src="assets/image%2017.png">
+                                        <img class="absolute right-5 top-5 mx-auto z-30" src="assets/ThumbsUp.png">
 
-                            </div>
-                            <div class="lg:flex hidden flex-col space-y-5 w-full lg:w-4/12">
-                                <div class="box-big-2 px-3 py-4 space-y-5 relative flex flex-col">
-                                    <img class="mx-auto z-30 w-auto lg:w-32" src="assets/image%2017.png">
-                                    <img class="absolute right-5 top-5 mx-auto z-30" src="assets/ThumbsUp.png">
-
-                                    <div class="space-y-2">
-                                        <p class="font-bold text-sm  text-center">Melly Goeslaw</p>
-                                        <p class="text-xs italic text-center w-9/12 mx-auto">
-                                            Penyanyi dan Penulis Lagu Indonesia
-                                        </p>
-                                        <div class="flex flex-row w-24 mx-auto">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
+                                        <div class="space-y-2">
+                                            <p class="font-bold text-sm  text-center">Melly Goeslaw</p>
+                                            <p class="text-xs italic text-center w-9/12 mx-auto">
+                                                Penyanyi dan Penulis Lagu Indonesia
+                                            </p>
+                                            <div class="flex flex-row w-24 mx-auto">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            I recommended banget untuk semuanya, khususnya untuk anak-anak kita. Tes, deh melalui STIFIn! Thank you STIFIn,
+                                            <br><br>
+                                            Aku jadi tau karakter anak-anak aku, terus bagaimana cara menanggulangi dan berkomunikasi dengan mereka dengan baik. Cocok dan pas banget buat anak-anak kita.
                                         </div>
                                     </div>
-                                    <div class="text-center">
-                                        I recommended banget untuk semuanya, khususnya untuk anak-anak kita. Tes, deh melalui STIFIn! Thank you STIFIn,
-                                        <br><br>
-                                        Aku jadi tau karakter anak-anak aku, terus bagaimana cara menanggulangi dan berkomunikasi dengan mereka dengan baik. Cocok dan pas banget buat anak-anak kita.
-                                    </div>
+
                                 </div>
+                                <div class="px-0 lg:px-5 lg:flex hidden flex-col space-y-5 w-full lg:w-3/12">
+                                    <div class="box-big-2 px-3 py-4 space-y-5 relative flex flex-col">
+                                        <img class="mx-auto z-30 w-auto lg:w-32" src="assets/image%2016.png">
+                                        <img class="absolute right-5 top-5 mx-auto z-30" src="assets/ThumbsUp.png">
 
-                            </div>
-                            <div class="lg:flex hidden flex-col space-y-5 w-full lg:w-4/12">
-                                <div class="box-big-2 px-3 py-4 space-y-5 relative flex flex-col">
-                                    <img class="mx-auto z-30 w-auto lg:w-32" src="assets/image%2016.png">
-                                    <img class="absolute right-5 top-5 mx-auto z-30" src="assets/ThumbsUp.png">
-
-                                    <div class="space-y-2">
-                                        <p class="font-bold text-sm  text-center">Prof. Dr. Kuswandi, S.U., M.Phill., Apt</p>
-                                        <p class="text-xs italic text-center w-9/12 mx-auto">
-                                            Guru Besar UGM, Pakar Genetika, Pemerhati Pendidikan
-                                        </p>
-                                        <div class="flex flex-row w-24 mx-auto">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
-                                            <img class="mx-auto z-30" src="assets/Star%201.png">
+                                        <div class="space-y-2">
+                                            <p class="font-bold text-sm  text-center">Prof. Dr. Kuswandi, S.U., M.Phill., Apt</p>
+                                            <p class="text-xs italic text-center w-9/12 mx-auto">
+                                                Guru Besar UGM, Pakar Genetika, Pemerhati Pendidikan
+                                            </p>
+                                            <div class="flex flex-row w-24 mx-auto">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            Hasil tes STIFIn ini sangat cocok dengan saya. Penjelasannya sangat ilmiah, detail, dan praktis untuk saya pahami.
+                                            <br><br>
+                                            Jadi menurut saya, tes ini sangat penting di lakukan sedini mungkin agar kita sebagai orang tua tidak salah dalam mengarahkan anak untuk memilih jalur pendidikan dan profesi yang sesuai dengan bakan dan potensinya.
+                                            <br><br>
+                                            Sehingga anak-anak menemukan cara belajar yang menyenangkan.
                                         </div>
                                     </div>
-                                    <div class="text-center">
-                                        Hasil tes STIFIn ini sangat cocok dengan saya. Penjelasannya sangat ilmiah, detail, dan praktis untuk saya pahami.
-                                        <br><br>
-                                        Jadi menurut saya, tes ini sangat penting di lakukan sedini mungkin agar kita sebagai orang tua tidak salah dalam mengarahkan anak untuk memilih jalur pendidikan dan profesi yang sesuai dengan bakan dan potensinya.
-                                        <br><br>
-                                        Sehingga anak-anak menemukan cara belajar yang menyenangkan.
-                                    </div>
-                                </div>
 
+                                </div>
+                                <div class="px-0 lg:px-5 lg:flex hidden flex-col space-y-5 w-full lg:w-3/12">
+                                    <div class="box-big-2 px-3 py-4 space-y-5 relative flex flex-col">
+                                        <img class="mx-auto z-30 w-auto lg:w-32" src="assets/image%2016.png">
+                                        <img class="absolute right-5 top-5 mx-auto z-30" src="assets/ThumbsUp.png">
+
+                                        <div class="space-y-2">
+                                            <p class="font-bold text-sm  text-center">Prof. Dr. Kuswandi, S.U., M.Phill., Apt</p>
+                                            <p class="text-xs italic text-center w-9/12 mx-auto">
+                                                Guru Besar UGM, Pakar Genetika, Pemerhati Pendidikan
+                                            </p>
+                                            <div class="flex flex-row w-24 mx-auto">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                                <img class="mx-auto z-30" src="assets/Star%201.png">
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            Hasil tes STIFIn ini sangat cocok dengan saya. Penjelasannya sangat ilmiah, detail, dan praktis untuk saya pahami.
+                                            <br><br>
+                                            Jadi menurut saya, tes ini sangat penting di lakukan sedini mungkin agar kita sebagai orang tua tidak salah dalam mengarahkan anak untuk memilih jalur pendidikan dan profesi yang sesuai dengan bakan dan potensinya.
+                                            <br><br>
+                                            Sehingga anak-anak menemukan cara belajar yang menyenangkan.
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
+                            <img class="right cursor-pointer absolute right-0 top-1/2 hidden lg:flex w-16" src="assets/arrow/Group%2042.svg">
                         </div>
-
-                        <img class="hidden lg:flex" src="assets/arrow/Group%2042.svg">
-
-                    </div>
 
 
                 </div>
 
+            </div>
             </div>
             <div class="pb-16 body-bg space-y-10 px-5 lg:px-0">
                 <img class="absolute relative -top-1 mx-auto" src="assets/icon/Polygon%202.png">
@@ -1029,4 +1055,6 @@
         </div>
 
     </div>
+
+
 @endsection
