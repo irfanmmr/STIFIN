@@ -11,6 +11,9 @@
 .bg-nav{
     background: #E8E8E8;
 }
+.bg-nav-orange{
+    background: rgba(255, 130, 0);
+}
 
 .box-small-3{
     /* Blue-Linear */

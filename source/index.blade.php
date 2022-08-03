@@ -263,26 +263,6 @@
                     <div class="flex flex-col lg:flex-row space-y-5 lg:space-y-0 space-x-0 lg:space-x-10">
                         <div class="flex flex-col space-y-5">
                             <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
-                                <img class="my-auto z-30 w-52" src="assets/9persona/Business/dollar%20coin.png">
-
-                                <div class="space-y-2">
-                                    <p class="font-bold text-xl">Sensing introvert</p>
-                                    <p class="text-xs italic">
-                                        Persistent, detailed, recorder, discipline, careful, spirited, encyclopedic, workaholic, timeful, indifferent
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
-                                <img class="my-auto z-30 w-52" src="assets/9persona/Business/credit%20card.png">
-
-                                <div class="space-y-2">
-                                    <p class="font-bold text-xl">Sensing extrovert</p>
-                                    <p class="text-xs italic">
-                                        Adventurous, playful, demonstrative, generous, repetitious, show offs, tune in order, inoffensive, endurance, experience
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
                                 <img class="my-auto z-30 w-52" src="assets/9persona/Business/growth%20graph.png">
 
                                 <div class="space-y-2">
@@ -302,23 +282,57 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
+                                <img class="my-auto z-30 w-52" src="assets/9persona/Business/dollar%20coin.png">
+
+                                <div class="space-y-2">
+                                    <p class="font-bold text-xl">Sensing introvert</p>
+                                    <p class="text-xs italic">
+                                        Persistent, detailed, recorder, discipline, careful, spirited, encyclopedic, workaholic, timeful, indifferent
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
+                                <img class="my-auto z-30 w-52" src="assets/9persona/Business/credit%20card.png">
+
+                                <div class="space-y-2">
+                                    <p class="font-bold text-xl">Sensing extrovert</p>
+                                    <p class="text-xs italic">
+                                        Adventurous, playful, demonstrative, generous, repetitious, show offs, tune in order, inoffensive, endurance, experience
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="flex flex-col space-y-5 justify-between">
                             <img class="hidden lg:flex w-11/12" src="assets/otak stifin-01 1.png">
-                            <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
-                            <img class="my-auto z-30 w-52" src="assets/9persona/Education/book.png">
 
-                            <div class="space-y-2">
-                                <p class="font-bold text-xl">Intuiting introvert</p>
-                                <p class="text-xs italic">
-                                    Learner, assertive, perfectionist, scholar, hard to please, proud, optimistic, deep, insistent, capable selling
-                                </p>
+                            <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
+                                <img class="my-auto z-30 w-52" src="assets/9persona/Emoji/happy,smile,happy%20face,smiley,emoji,smile%20beam,.png">
+
+                                <div class="space-y-2">
+                                    <p class="font-bold text-xl">Insting</p>
+                                    <p class="text-xs italic">
+                                        Balanced, compromizing, peaceful, resourceful, simple, forgiving, occupied, flowing, smooth, intermediary
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+
                         </div>
 
                         <div class="flex flex-col space-y-5">
+                            <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
+                                <img class="my-auto z-30 w-52" src="assets/9persona/Education/book.png">
+
+                                <div class="space-y-2">
+                                    <p class="font-bold text-xl">Intuiting introvert</p>
+                                    <p class="text-xs italic">
+                                        Learner, assertive, perfectionist, scholar, hard to please, proud, optimistic, deep, insistent, capable selling
+                                    </p>
+                                </div>
+                            </div>
+
                             <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
                                 <img class="my-auto z-30 w-52" src="assets/9persona/Business/puzzle.png">
 
@@ -349,16 +363,8 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="h-32 box-big-2 px-5 py-4 space-x-8 relative flex flex-row">
-                                <img class="my-auto z-30 w-52" src="assets/9persona/Emoji/happy,smile,happy%20face,smiley,emoji,smile%20beam,.png">
 
-                                <div class="space-y-2">
-                                    <p class="font-bold text-xl">Insting</p>
-                                    <p class="text-xs italic">
-                                        Balanced, compromizing, peaceful, resourceful, simple, forgiving, occupied, flowing, smooth, intermediary
-                                    </p>
-                                </div>
-                            </div>
+
                         </div>
 
                     </div>
@@ -633,7 +639,9 @@
                                 Per Orang
                             </p>
                         </div>
-                        <button class="button-paket-1 text-xl mx-auto px-6 py-5 rounded-full font-bold" style="color: #FF8200">Daftar via WhatsApp</button>
+                        <a class="mx-auto" href="/paket_1">
+                            <button class="button-paket-1 text-xl mx-auto px-6 py-5 rounded-full font-bold" style="color: #FF8200">Daftar via WhatsApp</button>
+                        </a>
 
                         <div class="flex flex-col space-y-3 py-10 px-5">
                             <div class="px-5 flex flex-row space-x-2">
