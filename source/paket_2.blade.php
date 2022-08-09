@@ -32,109 +32,78 @@
                 </div>
                 <div class="">
                     <div class="space-x-0 lg:space-x-5 flex flex-col-reverse lg:flex-row justify-between">
-                        <form action="#" class="w-full lg:w-8/12 py-5 px-5 bg-white rounded-2xl flex flex-col space-y-5">
-                            <p class="font-semibold text-lg">Informasi Pemesanan</p>
-                            <div class="flex flex-col space-y-10">
-                                <div class="flex flex-col space-y-5 px-2">
-                                    <p class="font-semibold text-sm">Data Pemesanan</p>
-                                    <div class="flex flex-col space-y-5 pr-5">
-                                        <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-5 lg:space-y-0">
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Nama Depan:</label>
-                                                <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                            </div>
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Nama Belakang:</label>
-                                                <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                            </div>
-                                        </div>
-                                        <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-5 lg:space-y-0">
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Email:</label>
-                                                <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                            </div>
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Nomber Telepon:</label>
-                                                <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                            </div>
-                                        </div>
-                                        <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-5 lg:space-y-0">
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Alamat Domisili</label>
-                                                <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                            </div>
-
-                                        </div>
-                                        <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-5 lg:space-y-0">
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Kota:</label>
-                                                <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                            </div>
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Kode Pos:</label>
-                                                <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                                <div class="flex flex-col space-y-5 px-2">
-                                    <p class="font-semibold text-sm">Pilih Pembayaran</p>
-                                    <div class="flex flex-col space-y-5 pr-5">
-                                        <div class="flex flex-row justify-between space-x-5 lg:space-x-10">
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <select class="border-black border-b outline-none px-2 py-1" id="#">
-                                                    <option value="Transfermanual">Transfer Manual</option>
-                                                </select>
-                                            </div>
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <select class="border-black border-b outline-none px-2 py-1" id="#">
-                                                    <option value="BCA">BCA</option>
-                                                    <option value="Mandiri">Mandiri</option>
-                                                    <option value="BNI">BNI</option>
-                                                    <option value="BRI">BRI</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-5 lg:space-y-0">
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Nama Penerima:</label>
-                                                <div class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                                    BCA - STFINAXELYMPT - 8983219831
+                        <div class="flex flex-col space-y-5 w-full lg:w-8/12">
+                            <form action="#" class="w-full pt-5 pb-10 px-5 bg-white rounded-2xl flex flex-col space-y-5">
+                                <p class="font-semibold text-lg">Informasi Pembayaran</p>
+                                <div class="flex flex-col space-y-10">
+                                    <div class="flex flex-col space-y-5 px-2">
+                                        <p class="font-semibold text-sm">Pilih Pembayaran</p>
+                                        <div class="flex flex-col space-y-5 pr-5">
+                                            <div class="flex flex-row justify-between space-x-5 lg:space-x-10">
+                                                <div class="flex flex-col space-y-1 w-full text-xs">
+                                                    <select class="border-black border-b outline-none px-2 py-1" id="#">
+                                                        <option value="Transfermanual">Transfer Manual</option>
+                                                    </select>
+                                                </div>
+                                                <div class="flex flex-col space-y-1 w-full text-xs">
+                                                    <select class="border-black border-b outline-none px-2 py-1" id="#">
+                                                        <option value="BCA">BCA</option>
+                                                        <option value="Mandiri">Mandiri</option>
+                                                        <option value="BNI">BNI</option>
+                                                        <option value="BRI">BRI</option>
+                                                    </select>
                                                 </div>
                                             </div>
-
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <label for="fname">Nama Pengirim:</label>
-                                                <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
-                                            </div>
-                                        </div>
-                                        <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-5 lg:space-y-0">
-
-                                            <div class="border border-black rounded-xl py-5 lg:py-0 flex flex-col w-full justify-between" style="background-color: #E9EEF0;">
-                                                <div class="flex flex-col space-y-1 w-full text-xs my-auto text-center">
-                                                    <div class="flex flex-col space-y-3 w-full text-xs">
-                                                        <p class="my-auto text-lg font-semibold">Biaya Total:</p>
-                                                        <p class="text-2xl font-bold" >Rp.650.<span class="body-bg goldtext px-1">021</span></p>
+                                            <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-5 lg:space-y-0">
+                                                <div class="flex flex-col space-y-1 w-full text-xs">
+                                                    <label for="fname">Nama Penerima:</label>
+                                                    <div class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
+                                                        BCA - STFINAXELYMPT - 8983219831
                                                     </div>
                                                 </div>
-                                            </div>
 
-                                            <div class="flex flex-col space-y-1 w-full text-xs">
-                                                <div class="rounded-xl w-full h-32 border-black border outline-none px-2 py-1 bg-center bg-contain bg-no-repeat" style="background-color: #E9EEF0; background-image:url('../assets/Placeholder.jpg') " id="#">
-                                                   <img class="w-full rounded-xl" src="">
+                                                <div class="flex flex-col space-y-1 w-full text-xs">
+                                                    <label for="fname">Nama Pengirim:</label>
+                                                    <input class="border-black border-b outline-none px-2 py-1" type="text" id="fname" name="fname">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <a class="w-full cursor-pointer" href="../paket_2/">
-                                <input class="cursor-pointer w-full body-bg py-5 lg:py-2 px-5 mt-5 rounded-lg text-sm text-white text-center font-semibold" type="Konfirmasi Pembayaran" value="Konfirmasi Pembayaran">
-                            </a>
-                        </form>
+
+                            </form>
+                            <form action="#" class="w-full py-5 px-5 bg-white rounded-2xl flex flex-col space-y-5">
+                                <div class="flex flex-col space-y-5 lg:space-y-3">
+                                    <p class="text-center font-semibold">
+                                        Waktu pembayaran
+                                    </p>
+
+                                    <div id="demo" class="countdown w-full text-center text-2xl font-semibold"></div>
+
+                                </div>
+                                <div class="flex flex-col lg:flex-row space-x-0 lg:space-x-10 space-y-5 lg:space-y-0">
+                                    <div class="border border-black rounded-xl py-5 lg:py-0 flex flex-col w-full justify-between" style="background-color: #E9EEF0;">
+                                        <div class="flex flex-col space-y-1 w-full text-xs my-auto text-center">
+                                            <div class="flex flex-col space-y-3 w-full text-xs">
+                                                <p class="my-auto text-lg font-semibold">Biaya Total:</p>
+                                                <p class="text-2xl font-bold" >Rp.600.<span class="body-bg goldtext px-1">021</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col space-y-1 w-full text-xs">
+                                        <div class="rounded-xl w-full h-32 border-black border outline-none px-2 py-1 bg-center bg-contain bg-no-repeat" style="background-color: #E9EEF0; background-image:url('../assets/Placeholder.jpg') " id="#">
+                                            <img class="w-full rounded-xl" src="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a class="w-full cursor-pointer" href="../paket_2/">
+                                    <input class="cursor-pointer w-full body-bg py-5 lg:py-2 px-5 mt-5 rounded-lg text-sm text-white text-center font-semibold" type="Konfirmasi Pembayaran" value="Konfirmasi Pembayaran">
+                                </a>
+                            </form>
+                        </div>
                         <div class="w-full lg:w-4/12 pb-5 lg:pb-0">
                             <div class="ml-auto w-full flex flex-col rounded-2xl" style="background: linear-gradient(274.42deg, #FFFFFF 0%, #FFFFFF 124.45%);box-shadow: 0px 10px 22px rgba(197, 139, 242, 0.3);">
                                 <div class="rounded-t-2xl w-full flex flex-col space-y-2 py-5" style="background-color: #23A455;">
@@ -262,5 +231,43 @@
 
     </div>
 
+<script>
+    // Set the date we're counting down to
+    var day = new Date();
+    console.log(day); // Apr 30 2000
 
+    var nextDay = new Date(day);
+    nextDay.setDate(day.getDate() + 1);
+    console.log(nextDay); // May 01 2000
+
+    var countDownDate = new Date(nextDay).getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML =hours + " : "
+            + minutes + " : " + seconds;
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
+
+</script>
 @endsection
